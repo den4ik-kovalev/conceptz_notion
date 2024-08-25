@@ -1,0 +1,8 @@
+current_project: my_project
+notion_token: < notion integration token >
+projects:
+  my_project:
+    concept_dbs:
+      - < notion database ID with concepts >
+    info_dbs:
+      - < notion database ID with info >
