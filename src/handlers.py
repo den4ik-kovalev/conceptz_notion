@@ -21,6 +21,7 @@ async def errors_handler(event: ErrorEvent):
     with logger.catch():
         raise event.exception
 
+
 @router.message(Command("get_config"))
 async def cmd_get_config(message: Message, bot: Bot):
     config_file = ConfigFile()
